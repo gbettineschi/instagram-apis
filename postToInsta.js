@@ -11,19 +11,20 @@ const postToInsta = async (username, password, pathToImage, caption) => {
 	const ig = new IgApiClient();
 	ig.state.generateDevice(username);
 	const loginResult = await ig.account.login(username, password);
-	console.log(loginResult);
+	// console.log(loginResult);
 
 	const publishResult = await ig.publish.photo({
 		file: await readFileAsync(pathToImage),
 		caption: caption,
 	});
 
-	console.log(publishResult);
+	// console.log(publishResult);
+	console.log('Done.');
 };
 
 postToInsta(
-	process.env.IG_GERTRUDE_USERNAME,
-	process.env.IG_GERTRUDE_PASSWORD,
+	process.env.IG_USERNAME,
+	process.env.IG_PASSWORD,
 	'./propic.jpg', //worked with .jpg, didn't work with .png
 	'che bella descrizione'
 );
