@@ -1,6 +1,6 @@
 # Instagram APIs
 
-Personal code to work with official Instagram Graph APIs. At the moment the only implemented script is for posting an image.
+Personal code to work with official Facebook and Instagram Graph APIs. At the moment the only implemented script is for posting an image.
 
 ## Quick start guide
 
