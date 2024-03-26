@@ -1,2 +1,17 @@
 # local env files
 .env*.local
+
+#vs code files
+.vscode
+
+#git files
+.git
+
+#node modules
+node_modules
+
+#code runnner
+tempCodeRunnerFile.js
+
+#env file
+.env
