@@ -64,6 +64,7 @@ async function printIGUserId() {
 }
 
 async function getImageContainerID(image_url, caption = '') {
+	//note that the image_url must be a public url
 	const endpoint = `https://graph.facebook.com/v19.0/${process.env.IG_USER_ID}/media/`;
 	const parameters = { image_url: image_url, caption: caption };
 
