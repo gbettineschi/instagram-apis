@@ -18,6 +18,6 @@ Run `getIGUserId.js` to get what you need to put in your environment variables a
 
 Now it's all set up, you can run `main.js`.
 
-#### Technologies
+### Technologies
 
 **Language:** Javascript (Node.js).
