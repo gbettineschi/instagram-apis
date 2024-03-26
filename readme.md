@@ -1,7 +1,6 @@
 # Instagram APIs
 
-Personal code to work with Instagram APIs. At the moment the only implemented script is for posting.
+Personal code to work with official Instagram Graph APIs. At the moment the only implemented script is for posting an image.
 
 ### Technologies
-**Language:** Javascript
-**Main library:** `instagram-private-api`. Link to GitHub [here](https://github.com/dilame/instagram-private-api).
+**Language:** Javascript (Node.js).
