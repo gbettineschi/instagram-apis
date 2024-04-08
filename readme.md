@@ -9,7 +9,7 @@ Have: a Meta Business Manager account that has under management a Facebook page 
 Go on Facebook for Developers, create an app. Go your app > settings > basic and take from there your `APP_ID` and `APP_SECRET`; put them in the environment variables.
 
 Go on the Meta Business Suite > settings of your Business Manager account > users > system users.
-Add a new system users and give it full permissions and the Instagram business account, on the Facebook Page and to the app you just created.
+Add a new system users and give it full permissions on the Instagram business account, on the Facebook Page and on the app you just created.
 
 Generate a token from there with the scopes you need. Put the token in your env variables in the field `SYSTEM_USER_ACCESS_TOKEN`
 The token you just generated will have a 60-day duration; you can run `refreshToken.js` to get a new token which has no expiration.
